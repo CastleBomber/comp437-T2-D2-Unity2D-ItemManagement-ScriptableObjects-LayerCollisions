@@ -164,5 +164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd5e0af03edd1d6498bcd184ab4d023c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 5
+  hitPoints: {fileID: 11400000, guid: 1fa6aee5eead296438447f1643e9e451, type: 2}
   maxHitPoints: 10
+  startingHitPoints: 6
+  healthBarPrefab: {fileID: 6949342110977169699, guid: bb8a41269c026cd42b318070ef393481,
+    type: 3}
