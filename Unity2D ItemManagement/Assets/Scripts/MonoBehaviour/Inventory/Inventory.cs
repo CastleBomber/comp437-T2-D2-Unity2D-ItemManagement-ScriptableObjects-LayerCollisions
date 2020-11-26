@@ -52,6 +52,8 @@ public class Inventory : MonoBehaviour
                 items[i].quantity = 1;
                 itemImages[i].sprite = itemToAdd.sprite;
                 itemImages[i].enabled = true;
+
+                //print("Made it to items null, but quantity = (code)");
                 return true;
             }
         }
